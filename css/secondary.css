@@ -1,5 +1,6 @@
 :root {
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: #ffffff;
+  --decoration-bg-color: #f5f4fa;
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -7,6 +8,8 @@
   --white-color: #ffffff;
   --footer-bg-color: #2f303a;
 }
+
+/* Переменная --white-color контраст белого текста на темном фоне*/
 
 .body {
   background-color: var(--primary-bg-color);
@@ -67,77 +70,37 @@
   color: var(--primary-text-color);
 }
 
-/* Hero section */
-/* Бэкграунд цвет сменится на фоновую картинку */
-.hero {
-  background-color: #2f303a;
-}
-
-.hero-title {
-  color: var(--white-color);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.button {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-
-/* features section */
-
-.features .title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
-
-.features-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-/* work-areas section */
-
-.work-areas .title,
-.team .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-/* Team section */
-
-.name {
+/* Студио страница */
+/* Портфолио страница */
+.selection-button {
+  background-color: var(--decoration-bg-color);
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.62;
   text-align: center;
 }
 
-.team-position {
+.selection-button:hover,
+.selection-button:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.project-name {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.type-of-work {
   color: var(--primary-text-color);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
+  line-height: 1.87;
 }
 
+/* Контакты страница */
 /* Footer section */
 
 .footer {
