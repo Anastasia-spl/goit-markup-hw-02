@@ -33,11 +33,10 @@
   color: var(--title-text-color);
 }
 
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
+.nav-link:hover,
+.nav-link:focus,
+.h-contacts:hover,
+.h-contacts:focus,
 .nav-link.current {
   color: var(--accent-color);
 }
@@ -53,6 +52,7 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -65,10 +65,18 @@
 
 .nav-link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .h-contacts {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Hero section */
@@ -162,6 +170,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .f-contacts {
